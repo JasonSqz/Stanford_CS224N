@@ -25,7 +25,7 @@ Then create a key-pair, which will be used to log in your instance later.
 
 <img width="761" alt="image" src="https://user-images.githubusercontent.com/91235078/189548385-33745678-9e09-4b86-ad15-d54d6f098216.png">
 
-Leave everything else as is.
+Leave everything else as is. <br></br>
 
 **STEP 2 Upload your files and log into your instance**
 
@@ -44,11 +44,27 @@ Replace [instance_location] as ubuntu@[ip_address].compute-1.amazonaws.com:~/
 
 [ip_address] can be found in your instance summary under `Public IPv4 address`
 
-If you encounter any secrutiy problem, Google.
+If you encounter any secrutiy problem, Google. 
+
+Use the following code to log in to your EC2 instance
+
+```
+ssh -i [key] ubuntu@[ip_address].compute-1.amazonaws.com
+```
+
+After getting in, enter
+```
+source activate pytorch
+```
+and you will be all set to train your model as instructed in the handout.
+
+NOTE: DONT LEAVE YOUR INSTANCE RUNIING AND ONLY USE FOR TRAINNING PURPOSE! It costs me around $15 to complete hw4 and hw5, so it's really affordable if you shut down your instances approriately. <br></br>
+
+
 
 #### 1.2 Use Azure
 
-You can set up your Azure account and you will generally be granted $200 upon registration (Student account $100). Before you can follow the [Azure guide](https://github.com/daviddwlee84/Stanford-CS224n-NLP/blob/master/Assignments/AzureGuide.pdf) to set up your VMs, you probably will find that you have no quotas for any of the GPU instances. You will need to file a request to increase the limit. I had really bad experience on this part and AWS approved my request. So, I just went on using AWS.
+You can set up your Azure account and you will generally be granted $200 upon registration (Student account $100). Before you can follow the [Azure guide](https://github.com/daviddwlee84/Stanford-CS224n-NLP/blob/master/Assignments/AzureGuide.pdf) to set up your VMs, you probably will find that you have no quotas for any of the GPU instances. You will need to file a request to increase the limit. I had really bad experience on this part and AWS approved my request. So, I just went on using AWS. <br></br>
 
 #### 1.3 Train locally 
 
