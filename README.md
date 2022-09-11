@@ -1,9 +1,9 @@
 # CS224N
-This repo serves as a documentation to my learning for Stanford CS224N: Natural Language Processing with Deep Learning. I am truly thankful to Stanford , Professor Christopher Manning and the guest for providing this amazing course and make it accessible to public!
+This repo serves as a documentation to my learning for Stanford CS224N: Natural Language Processing with Deep Learning. I am truly thankful to Stanford , Professor Christopher Manning and the guests for providing this amazing course and make it accessible to public!
 
 The materials are based on the 2022 version and will include all five homeworks and one standard course project.
 
-The repo is an on-going process and constantly updated (Last update: 2022/09/11)
+The repo is an on-going process and constantly updated. (Last update: 2022/09/11)
 
 ## Motivation 
 
