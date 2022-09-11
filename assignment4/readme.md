@@ -19,10 +19,13 @@ Search for `deep learning` at AMI and select `Deep Learning AMI GPU PyTorch 1.12
 
 <img width="752" alt="image" src="https://user-images.githubusercontent.com/91235078/189548302-ead36516-056a-40df-908f-35f5330ed219.png">
 
+Choose an approriate type (Check price, I used g5.xlarge at $1.006/hr).
+
 Then create a key-pair, which will be used to log in your instance later.
 
 <img width="761" alt="image" src="https://user-images.githubusercontent.com/91235078/189548385-33745678-9e09-4b86-ad15-d54d6f098216.png">
 
+Leave everything else as is.
 
 
 
