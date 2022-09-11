@@ -27,7 +27,7 @@ Then create a key-pair, which will be used to log in your instance later.
 
 Leave everything else as is.
 
-**STEP 2 Upload your files and log into your instance and **
+**STEP 2 Upload your files and log into your instance**
 
 Take macOS as an example, SSH into your instance.
 
