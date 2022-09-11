@@ -11,9 +11,13 @@ I assume that readers have some exposure to AWS. If not, Google. I will still pr
 
 -- Note: You will probably not have GPU instance limits (G/P instances) and need to submit a request to increase your limits. You can refer [here](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-instance-limit/). If your request is not approved, try request for other type and provide detailed explanations on why you need the instances.
 
-STEP 1 Configure you EC2 instance
+**STEP 1 Configure you EC2 instance**
 
 Suppose you just login and at the Console home, search for EC2 in top search bar. After getting in, select `Launch instance`.
+
+Search for `deep learning` at AMI and choose `Deep Learning AMI GPU PyTorch 1.12.0`
+
+<img width="752" alt="image" src="https://user-images.githubusercontent.com/91235078/189548302-ead36516-056a-40df-908f-35f5330ed219.png">
 
 
 
