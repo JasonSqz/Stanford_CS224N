@@ -27,7 +27,24 @@ Then create a key-pair, which will be used to log in your instance later.
 
 Leave everything else as is.
 
+**STEP 2 Upload your files and log into your instance and **
 
+Take macOS as an example, SSH into your instance.
+
+Use the following codes in your terminal to upload files. 
+
+```
+scp -r -i [key] [local_location] [instance_location]      
+```
+Replace [key] with the .pem you just created and downloaded.
+
+Replace [local_location] as your local file path
+
+Replace [instance_location] as ubuntu@[ip_address].compute-1.amazonaws.com:~/  
+
+[ip_address] can be found in your instance summary under `Public IPv4 address`
+
+If you encounter any secrutiy problem, Google.
 
 #### 1.2 Use Azure
 
