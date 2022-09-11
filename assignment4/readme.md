@@ -7,7 +7,15 @@ Assignment 4 requires training on GPU provided by Microsoft Azure. The course pr
 
 To use AWS, you will need apply for an account (credit card required) and create an EC2 GPU instance.
 
-I will provide a somewhat detailed instruction here.
+I assume that readers have some exposure to AWS. If not, Google. I will still provide a somewhat detailed instruction here.
+
+-- Note: You will probably not have GPU instance limits (G/P instances) and need to submit a request to increase your limits. You can refer [here](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-instance-limit/). If your request is not approved, try request for other type and provide detailed explanations on why you need the instances.
+
+STEP 1 Configure you EC2 instance
+
+Suppose you just login and at the Console home, search for EC2 in top search bar. After getting in, select `Launch instance`.
+
+
 
 
 #### 1.2 Use Azure
