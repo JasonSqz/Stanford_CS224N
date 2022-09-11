@@ -13,11 +13,15 @@ I assume that readers have some exposure to AWS. If not, Google. I will still pr
 
 **STEP 1 Configure you EC2 instance**
 
-Suppose you just login and at the Console home, search for EC2 in top search bar. After getting in, select `Launch instance`.
+Suppose you just logged in and at the Console home, search for EC2 in top search bar. After getting in, select `Launch instance`.
 
-Search for `deep learning` at AMI and choose `Deep Learning AMI GPU PyTorch 1.12.0`
+Search for `deep learning` at AMI and select `Deep Learning AMI GPU PyTorch 1.12.0`.
 
 <img width="752" alt="image" src="https://user-images.githubusercontent.com/91235078/189548302-ead36516-056a-40df-908f-35f5330ed219.png">
+
+Then create a key-pair, which will be used to log in your instance later.
+
+<img width="761" alt="image" src="https://user-images.githubusercontent.com/91235078/189548385-33745678-9e09-4b86-ad15-d54d6f098216.png">
 
 
 
