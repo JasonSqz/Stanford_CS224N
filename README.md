@@ -23,3 +23,4 @@ There are many existing GitHub repos that provide really good answers to the hom
 
 9/21 Uploaded assignment 1. Completed jupyter notebook (included a pdf version)
 
+Note that unleast explictely stated, most assignments are code-complete but missing most written part.
