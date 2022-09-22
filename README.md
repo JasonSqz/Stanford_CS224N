@@ -3,7 +3,7 @@ This repo serves as a documentation to my learning for Stanford CS224N: Natural 
 
 The materials are based on the winter 2021 version and will include all five homeworks and one standard course project.
 
-The repo is an on-going process and constantly updated. (Last update: 2022/09/15)
+The repo is an on-going process and constantly updated. (Last update: 2022/09/21)
 
 ## Course materials
 
@@ -20,4 +20,6 @@ There are many existing GitHub repos that provide really good answers to the hom
 9/11 Uploaded assignment 4, completed AWS GPU training tutorial
 
 9/15 Uploaded assignment 2,3,5. 
+
+9/21 Uploaded assignment 1. Completed jupyter notebook (included a pdf version)
 
