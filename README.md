@@ -25,4 +25,6 @@ There are many existing GitHub repos that provide really good answers to the hom
 
 9/23 Added lecture slides, discontinuity means that there is no slides for that lecture
 
+9/25 Assignment2 written part refined
+
 Note that unleast explictely stated, most assignments are code-complete but missing most written part.
