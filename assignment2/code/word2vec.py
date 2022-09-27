@@ -67,13 +67,18 @@ def naiveSoftmaxLossAndGradient(
     ### This numerically stable implementation helps you avoid issues pertaining
     ### to integer overflow. 
 
+    #Constructing y: one-hot vector (Refer to written part) Shape: (num of words in vocab, )
     y = np.zeros(outsideVectors.shape[0])
     y[outsideWordIdx] = 1
 
+    #Calcualte predicted distribution Shape: (num of words in vocab, )
     y_hat = softmax(outsideVectors @ centerWordVec)
 
+    #Calculate loss 
     loss = - np.log(y_hat[outsideWordIdx])
+    #Gradient with regard to v_c = U(y_hat - y)
     gradCenterVec = outsideVectors.T @ (y_hat-y)
+    #Gradient with regard to u_w 
     gradOutsideVecs = (y_hat - y).reshape(-1,1) @ centerWordVec.reshape(1,-1) 
 
     ### END YOUR CODE
